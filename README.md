@@ -1,0 +1,1 @@
+# go-example-nomic-embed-text
