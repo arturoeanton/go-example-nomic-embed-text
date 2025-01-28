@@ -82,6 +82,11 @@ ALTER TABLE documents ADD COLUMN embedding VECTOR(1024);
 1. **Insert Texts with Embeddings**
    Use the provided Go script to insert texts and their embeddings into the database.
 
+   ```bash
+     bash insert_example.sh
+    ```
+   
+
 2. **Query Similar Texts**
    Perform similarity searches using SQL queries like:
    ```sql
